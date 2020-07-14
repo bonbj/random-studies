@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    height: 25vh;
+    width: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: inset -1px -1px 22px rgba(0,0,0,1), 3px 3px 15px rgba(0,0,0,1);
+}
+
+li:hover {
+    transform: translateY(-5vh);
+    box-shadow: inset -1px -1px 22px rgba(0,0,0,1), 3px 25px 25px rgba(0,0,0,0.5);
+    transition: all 0.5s;
+}
+
+button {
+    border-radius: 50%;
+    padding: 2vh;
+}
+div {
+    height: 18vh;
+    width: 18vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 18vh;
+
+}
+
+.facebook {
+    border: 1.5vh solid #425F9B;
+}
+
+.facebook:hover {
+    background-color: #425F9B;
+}
+
+.facebook-image {
+    background-image: url("./img/facebook.png");
+}
+
+.facebook-image:hover {
+    background-image: url("./img/facebook-white.png");
+}
+
+.twitter {
+    border: 1.5vh solid #1C9DEB;
+}
+
+.twitter:hover {
+    background-color: #1C9DEB;
+}
+
+.twitter-image {
+    background-image: url("./img/twitter.png");
+}
+
+.twitter-image:hover {
+    background-image: url("./img/twitter-white.png");
+}
+
+.whatsapp {
+    border: 1.5vh solid #00A357;
+}
+
+.whatsapp:hover {
+    background-color: #00A357;
+}
+
+.whatsapp-image {
+    background-image: url("./img/whatsapp.png");
+}
+
+.whatsapp-image:hover {
+    background-image: url("./img/whatsapp-white.png");
+}
+
+.instagram {
+    border: 1.5vh solid #BB2CA0;
+}
+
+.instagram:hover {
+    background-color: #BB2CA0;
+}
+
+.instagram-image {
+    background-image: url("./img/instagram.png");
+}
+
+.instagram-image:hover {
+    background-image: url("./img/instagram-white.png");
+}
+
+.basketball {
+    border: 1.5vh solid #E14C86;
+}
+
+.basketball:hover {
+    background-color: #E14C86;
+}
+
+.basketball-image {
+    background-image: url("./img/basketball.png");
+}
+
+.basketball-image:hover {
+    background-image: url("./img/basketball-white.png");
+}
