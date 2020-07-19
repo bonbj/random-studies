@@ -8,4 +8,4 @@ I didn't necessarily do the same as the creator, so it's cool to look at the sou
 
     (pt)
 esse repositório é apenas para estudo todo o seu conteudo foi feito por aulas ou testes ou em vídeos, então os creditos estarão em cada pasta.
-não necessariamente eu fiz igual ao criador, por isso e legal olhar a fonte.
+não necessariamente eu fiz igual ao criador, por isso é legal olhar a fonte.
