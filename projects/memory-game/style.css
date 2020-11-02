@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #654bae;
+}
+
+.game {
+    margin: 0 auto;
+    max-width: 1296px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 1rem;
+    height: 10rem;
+    width: 10rem;
+    background-color: #9489af;
+    border-radius: 1.5pc;
+    box-shadow: -7px -7px 30px #2b2b2ba1, 
+                7px 7px 30px #66666698;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tech-img {
+    width: 70%;
+    height: 70%;
+    display: none;
+}
+
+.card-text {
+    font-size: 5rem;
+    color:  #3a296b;
+}
+
+.win {
+    font-size: 3rem;
+    z-index: 9;
+    color:  #3a296b;
+    text-align: center;
+    box-shadow: 0 0 5 black;
+    display: none;
+}
+
+.restart {
+    background-color: #9489af;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 1pc;
+    box-shadow: -5px -5px 20px #2b2b2ba1, 
+                5px 5px 20px #66666698;
+}
