@@ -54,7 +54,7 @@ $(".game").click((e) => {
                     hideCard(cardB);
                     cardA = undefined;
                     cardB = undefined;
-                },100);
+                },400);
             }
         }
 
