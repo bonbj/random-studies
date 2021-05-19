@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 80%;
+    background-color: chocolate;
+    height: 5rem;
+    border-radius: 2pc;
+    box-shadow: 5px 5px 15px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: chocolate;
+    padding: 1rem;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+button:hover {
+    background:rgb(139, 78, 34);
+}
+
+.actived {
+    color: black;
+}
