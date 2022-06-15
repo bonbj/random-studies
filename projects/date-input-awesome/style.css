@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-image: url("./img/Orion_Nebula.jpg");
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    height: 20rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: none;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+form > * {
+    margin: 0.5rem;
+    color: wheat;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article {
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-label {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.age-box {
+    width: 40rem;
+    height: 25rem;
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-input {
+    width: 50px;
+}
+
+.line {
+    width: 30rem;
+    height: 20rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-image: url("./img/sun.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+}
+
+#earth {
+    z-index: 2;
+    margin: 7%;
+}
